@@ -1,0 +1,17 @@
+
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/20.4R0/junos">
+    <output>
+        logical-system: default
+    </output>
+    <ldp-neighbor-information xmlns="http://xml.juniper.net/junos/20.4R0/junos-routing">
+        <ldp-neighbor>
+            <ldp-neighbor-address>172.20.82.1</ldp-neighbor-address>
+            <interface-name>lo0.0</interface-name>
+            <ldp-label-space-id>0.0.0.0:0</ldp-label-space-id>
+            <ldp-remaining-time>0</ldp-remaining-time>
+        </ldp-neighbor>
+    </ldp-neighbor-information>
+    <cli>
+        <banner></banner>
+    </cli>                              
+</rpc-reply>

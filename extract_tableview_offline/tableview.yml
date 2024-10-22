@@ -1,0 +1,15 @@
+
+---
+juniper_ldp_detailTable:
+  args:
+    detail: true
+  item: //ldp-neighbor-information/ldp-neighbor
+  key: interface-name
+  rpc: get-ldp-neighbor-information
+  view: _juniper_ldp_detail_view
+_juniper_ldp_detail_view:
+  fields:
+    ldp_neighbor_address: ldp-neighbor-address
+    interface_name: interface-name
+    ldp_label_space_id: ldp-label-space-id
+    ldp_remaining_time: ldp-remaining-time
