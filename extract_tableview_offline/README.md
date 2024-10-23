@@ -19,5 +19,7 @@ pip install streamlit-ace
 streamlit run app_extract_tableview_offline.py
 
 #Run with docker
+
 docker build -t tableview_xml_extract .
+
 docker run -d -p 8501:8501 tableview_xml_extract
